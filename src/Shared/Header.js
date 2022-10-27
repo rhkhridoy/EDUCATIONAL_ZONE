@@ -39,7 +39,7 @@ const Header = () => {
               src={navIcon}
               alt=""
             />
-            Edupoint
+            EDUCATIONAL ZONE
           </Link>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
