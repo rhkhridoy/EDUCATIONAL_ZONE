@@ -1,0 +1,84 @@
+[debug] [2022-10-28T15:54:24.081Z] ----------------------------------------------------------------------
+[debug] [2022-10-28T15:54:24.082Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\MOHAMMAD HRIDoY mSi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-10-28T15:54:24.082Z] CLI Version:   11.15.0
+[debug] [2022-10-28T15:54:24.083Z] Platform:      win32
+[debug] [2022-10-28T15:54:24.083Z] Node Version:  v16.17.1
+[debug] [2022-10-28T15:54:24.083Z] Time:          Fri Oct 28 2022 21:54:24 GMT+0600 (Bangladesh Standard Time)
+[debug] [2022-10-28T15:54:24.084Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-10-28T15:54:24.143Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-10-28T15:54:24.143Z] > authorizing via signed-in user (mdnasirullahhridoy@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\PROGRAMMING HERO\educational zone
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-10-28T15:54:32.691Z] Using project from CLI flag: educationalzone-7a33d
+[debug] [2022-10-28T15:54:32.692Z] > refreshing access token with scopes: []
+[debug] [2022-10-28T15:54:32.693Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-10-28T15:54:32.693Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-10-28T15:54:33.019Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2022-10-28T15:54:33.019Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-10-28T15:54:33.029Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/educationalzone-7a33d [none]
+[debug] [2022-10-28T15:54:33.854Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/educationalzone-7a33d 200
+[debug] [2022-10-28T15:54:33.855Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/educationalzone-7a33d {"projectId":"educationalzone-7a33d","projectNumber":"433795877612","displayName":"educationalzone","name":"projects/educationalzone-7a33d","resources":{"hostingSite":"educationalzone-7a33d"},"state":"ACTIVE","etag":"1_5c9f34ee-e71e-4ff2-a952-7cdb9f410949"}
+[info] i  Using project educationalzone-7a33d (educationalzone) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] +  Wrote public/404.html 
+[debug] [2022-10-28T15:54:51.465Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2022-10-28T15:54:51.626Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2022-10-28T15:54:51.626Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.13.0","browserURL":"https://www.gstatic.com/firebasejs/9.13.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.13.0/firebase.tgz"},"live":{"version":"9.13","browserURL":"https://www.gstatic.com/firebasejs/live/9.13/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.13/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.13.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.13.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.13.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.13.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.13.0/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.13.0/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.13.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.13.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.13.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/9.13.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/9.13.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.13.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.13.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.13.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.13.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.13.0/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.13.0/firebase-firestore.memory.js"}}
+[info] +  Wrote public/index.html 
+[info] 
+[info] i  Detected a .git folder at D:\PROGRAMMING HERO\educational zone 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=160526578&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2022-10-28T15:54:58.779Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2022-10-28T15:54:58.779Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2022-10-28T15:54:59.311Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2022-10-28T15:54:59.311Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2022-10-28T15:54:59.317Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2022-10-28T15:54:59.979Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2022-10-28T15:54:59.980Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"rhkhridoy","id":103283323,"node_id":"U_kgDOBif6ew","avatar_url":"https://avatars.githubusercontent.com/u/103283323?v=4","gravatar_id":"","url":"https://api.github.com/users/rhkhridoy","html_url":"https://github.com/rhkhridoy","followers_url":"https://api.github.com/users/rhkhridoy/followers","following_url":"https://api.github.com/users/rhkhridoy/following{/other_user}","gists_url":"https://api.github.com/users/rhkhridoy/gists{/gist_id}","starred_url":"https://api.github.com/users/rhkhridoy/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/rhkhridoy/subscriptions","organizations_url":"https://api.github.com/users/rhkhridoy/orgs","repos_url":"https://api.github.com/users/rhkhridoy/repos","events_url":"https://api.github.com/users/rhkhridoy/events{/privacy}","received_events_url":"https://api.github.com/users/rhkhridoy/received_events","type":"User","site_admin":false,"name":"MD. NASIR ULLAH HRIDOY","company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":"i am ?.\r\n“Any fool can write code that a computer can understand. Good programmers write code that humans can understand.\"","twitter_username":"rhk_hridoy","public_repos":17,"public_gists":0,"followers":0,"following":2,"created_at":"2022-04-08T18:51:40Z","updated_at":"2022-09-29T14:16:43Z","private_gists":0,"total_private_repos":0,"owned_private_repos":0,"disk_usage":61274,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as rhkhridoy 
+[info] 
+[debug] [2022-10-28T15:56:45.302Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-10-28T15:56:45.862Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-10-28T15:56:45.862Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-10-28T15:56:47.616Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-10-28T15:56:47.803Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-10-28T15:56:48.047Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-10-28T15:56:48.047Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-10-28T15:56:48.321Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-10-28T15:56:48.322Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-10-28T15:56:49.754Z] >>> [apiv2][query] GET https://api.github.com/repos/   /actions/secrets/public-key type=owner
+[debug] [2022-10-28T15:56:50.198Z] <<< [apiv2][status] GET https://api.github.com/repos/   /actions/secrets/public-key 404
+[debug] [2022-10-28T15:56:50.198Z] <<< [apiv2][body] GET https://api.github.com/repos/   /actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
